@@ -24,8 +24,6 @@ app.get('/',(req, res) => {
     res.json({ message: 'oioi express!' })
 })
 
-//mongodb+srv://user:WwWord@apicluster.ptdhj4m.mongodb.net/bancodaapi?retryWrites=true&w=majority
-
 //Entregar porta
 
 mongoose.connect(`mongodb+srv://user:WwWord@apicluster.ptdhj4m.mongodb.net/bancodaapi?retryWrites=true&w=majority`)
